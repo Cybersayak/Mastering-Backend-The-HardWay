@@ -14,7 +14,6 @@ app.use(function (req,res, next){
 
 // Routing 
 app.get('/', function(req, res) {
-    
     res.send('Hello World!') 
 })
 // Routing 
@@ -36,3 +35,4 @@ app.listen(3000 , () => {
     console.log('Running on Server');
 });
 
+    
