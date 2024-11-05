@@ -12,6 +12,11 @@ app.use(function (req,res, next){
     next();
 })
 
+// MiddleWare
+app.use(express.json()); // Makes the JSON data Readable to Server that comes from Frontend
+app.use(express.urlencoded({extended:true})); // Make the x -www-form-urlencoded   , understandable and readable to server 
+
+
 // Routing 
 app.get('/', function(req, res) {
     res.send('Hello World!') 
@@ -34,5 +39,3 @@ app.use((err ,req ,res ,next) => {
 app.listen(3000 , () => {
     console.log('Running on Server');
 });
-
-    

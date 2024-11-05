@@ -1,5 +1,5 @@
 {
-  "name": "master-backend",
+  "name": "intermediate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cookie-parser": "^1.4.7",
-    "express": "^4.21.1",
-    "nodemon": "^3.1.7"
+    "express": "^4.21.1"
   }
 }
