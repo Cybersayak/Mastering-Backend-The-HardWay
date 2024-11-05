@@ -36,6 +36,6 @@ app.use((err ,req ,res ,next) => {
     res.status(500).send('Something broke!') // Response  will be visible in Frontend 
 })
 
-app.listen(3000 , () => {
-    console.log('Running on Server');
+app.listen(3002 , () => {
+    console.log('Running on 3002');
 });
