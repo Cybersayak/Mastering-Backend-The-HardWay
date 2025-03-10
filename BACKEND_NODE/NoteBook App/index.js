@@ -16,7 +16,7 @@ app.get('/', function (req , res){
 })
 
 app.post('/add', function (req , res){
-   console.log(req.body);
+  fs.
 })
 
 app.listen(3000);
